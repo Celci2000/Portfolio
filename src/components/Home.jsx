@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -7,18 +7,16 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className=" w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+      <div className="max-w-screen-lg mx-auto flex items-center justify-center h-full flex-col px-4 lg:flex-row">
+        <div className="flex flex-col justify-center mt-10 py-10 h-full">
+          <h2 className="text-4xl font-bold text-white"> 
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I .am a third year engineering student.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind.
-          </p>
+          Student at College of Engineerg,Trivandrum
+          <br></br>Learning Initiatives Intern at TinkerHub Foundation</p>
 
           <div>
             <Link
@@ -39,7 +37,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-ful py-4 mt-8"
           />
         </div>
       </div>
