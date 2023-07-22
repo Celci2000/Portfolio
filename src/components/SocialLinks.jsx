@@ -2,7 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
+import resume from  "../assets/CELIA S MATHEW_resume(5).pdf";
+ 
 const SocialLinks = () => {
   const links = [
     {
@@ -40,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/CELIASMATHEW_resume(4).pdf",
+      href: resume,
       style: "rounded-br-md",
       download: true,
     },
